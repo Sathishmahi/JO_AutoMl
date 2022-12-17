@@ -8,7 +8,7 @@ USER_NAME = "Sathishmahi"
 
 setuptools.setup(
     name=f"{PROJECT_NAME}-{USER_NAME}",
-    version="0.0.3",
+    version="0.0.4",
     author=USER_NAME,
     author_email="sathishmahi433@gmail.com",
     description="its a ML,in this library cover almost every ML process.this library mostly used for biginner",
