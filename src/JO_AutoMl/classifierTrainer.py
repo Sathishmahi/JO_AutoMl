@@ -7,8 +7,8 @@ import numpy as np
 import pandas as pd
 import datetime
 from sklearn.cluster import KMeans
-from hyper_parameter import hyper_parameter_classifier
-from classification import (
+from JO_AutoMl.hyper_parameter import hyper_parameter_classifier
+from JO_AutoMl.classification import (
     super_v_c,
     logisticRegression,
     randomForestClassifier,
@@ -18,7 +18,7 @@ from classification import (
     naive_bayes_Gaus,
     naive_bayes_Mul,
 )
-from regression import (
+from JO_AutoMl.regression import (
     linearRegression,
     randomForestRegressor,
     svr,
@@ -27,7 +27,7 @@ from regression import (
     decisiontreeregressor,
     xgbRegressor,
 )
-from exception import CustomException
+from JO_AutoMl.exception import CustomException
 from sklearn.metrics import (
     accuracy_score,
     f1_score,

@@ -1,21 +1,21 @@
 import pandas as pd
 import numpy as np
-from classifierTrainer import non_hyper_parameter_classifier_model
-from handle_missing_value_in_catData import replace_nan_categorical_data
-from hyper_parameter import hyper_parameter_classifier
-from detect_outlierANDremove import detect_remove_outliers
-from handle_imbalanced_dataset import handle_imbalanced_data
+from JO_AutoMl.classifierTrainer import non_hyper_parameter_classifier_model
+from JO_AutoMl.handle_missing_value_in_catData import replace_nan_categorical_data
+from JO_AutoMl.hyper_parameter import hyper_parameter_classifier
+from JO_AutoMl.detect_outlierANDremove import detect_remove_outliers
+from JO_AutoMl.handle_imbalanced_dataset import handle_imbalanced_data
 
 # from source_code.diamensionalityReduction import diamensionality_reduction
-from diamensionalityReduction import diamensionality_reduction
-from remove_unwntedColumns import remove_col
-from find_Corr_remove import find_correlation
-from transformation import transformation
-from replace_NaN import replace_nan
-from handle_categorical_features import cat_value
-from remove_unwntedColumns import remove_col
-from train_test_split import train_test_split_fn
-from exception import CustomException
+from JO_AutoMl.diamensionalityReduction import diamensionality_reduction
+from JO_AutoMl.remove_unwntedColumns import remove_col
+from JO_AutoMl.find_Corr_remove import find_correlation
+from JO_AutoMl.transformation import transformation
+from JO_AutoMl.replace_NaN import replace_nan
+from JO_AutoMl.handle_categorical_features import cat_value
+from JO_AutoMl.remove_unwntedColumns import remove_col
+from JO_AutoMl.train_test_split import train_test_split_fn
+from JO_AutoMl.exception import CustomException
 from sklearn.metrics import (
     accuracy_score,
     f1_score,

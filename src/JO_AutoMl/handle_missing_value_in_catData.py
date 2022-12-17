@@ -2,8 +2,8 @@
 import sys
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
-from all_names import handle_miss_val_cat_dict as dic
-from exception import CustomException
+from JO_AutoMl.all_names import handle_miss_val_cat_dict as dic
+from JO_AutoMl.exception import CustomException
 
 
 

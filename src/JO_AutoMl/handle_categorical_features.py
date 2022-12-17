@@ -1,7 +1,7 @@
 from sklearn.preprocessing import LabelEncoder, LabelBinarizer
 import pandas as pd
-from all_names import handle_catData_dict as dic
-from exception import CustomException
+from JO_AutoMl.all_names import handle_catData_dict as dic
+from JO_AutoMl.exception import CustomException
 import sys
 
 

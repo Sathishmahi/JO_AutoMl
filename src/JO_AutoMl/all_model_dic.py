@@ -1,4 +1,4 @@
-from classification import (
+from JO_AutoMl.classification import (
     logisticRegression,
     super_v_c,
     randomForestClassifier,
@@ -8,7 +8,7 @@ from classification import (
     decisionTreeClassifier,
     knnClassifier,
 )
-from regression import (
+from JO_AutoMl.regression import (
     svr,
     linearRegression,
     randomForestRegressor,

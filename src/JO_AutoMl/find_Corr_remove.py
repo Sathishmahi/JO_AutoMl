@@ -1,9 +1,9 @@
 import pandas as pd
 import sys, os
-from all_names import corr_remove_columns_list as remove_col_li
-from all_names import corrrelation_dict as corr_dic
-from all_names import most_corrrelation_dict as most_corr_dic
-from exception import CustomException
+from JO_AutoMl.all_names import corr_remove_columns_list as remove_col_li
+from JO_AutoMl.all_names import corrrelation_dict as corr_dic
+from JO_AutoMl.all_names import most_corrrelation_dict as most_corr_dic
+from JO_AutoMl.exception import CustomException
 
 
 class find_correlation:

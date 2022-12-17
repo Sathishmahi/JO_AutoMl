@@ -1,11 +1,11 @@
-from all_names import outlier_list as user_outlier_li
-from all_names import outlier_index_list as ind_li
-from all_names import outlier_index_dict as outlier_ind_dic
-from all_names import outlier_column_percentage_dic as col_per_dic
+from JO_AutoMl.all_names import outlier_list as user_outlier_li
+from JO_AutoMl.all_names import outlier_index_list as ind_li
+from JO_AutoMl.all_names import outlier_index_dict as outlier_ind_dic
+from JO_AutoMl.all_names import outlier_column_percentage_dic as col_per_dic
 import pandas as pd
 import numpy as np
 import sys
-from exception import CustomException
+from JO_AutoMl.exception import CustomException
 
 
 class detect_remove_outliers:

@@ -3,11 +3,11 @@
 import pandas as pd
 import numpy as np
 import sys
-from all_hyperPara import all_hyper_parameter_dic
-from all_names import best_parameter as best_parameter
+from JO_AutoMl.all_hyperPara import all_hyper_parameter_dic
+from JO_AutoMl.all_names import best_parameter as best_parameter
 from sklearn.model_selection import RandomizedSearchCV
-from exception import CustomException
-from all_model_dic import all_model
+from JO_AutoMl.exception import CustomException
+from JO_AutoMl.all_model_dic import all_model
 
 
 class hyper_parameter_classifier:

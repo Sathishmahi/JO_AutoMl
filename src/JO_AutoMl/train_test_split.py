@@ -1,7 +1,7 @@
 
 import sys
 import pandas as pd
-from exception import CustomException
+from JO_AutoMl.exception import CustomException
 from sklearn.model_selection import train_test_split
 
 

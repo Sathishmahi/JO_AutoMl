@@ -2,7 +2,7 @@
 import pandas as pd
 import sys, os
 from sklearn.impute import KNNImputer
-from exception import CustomException
+from JO_AutoMl.exception import CustomException
 
 
 

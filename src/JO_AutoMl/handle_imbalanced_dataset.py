@@ -1,6 +1,6 @@
 from imblearn.combine import SMOTEENN, SMOTETomek
 import pandas as pd
-from exception import CustomException
+from JO_AutoMl.exception import CustomException
 import sys, os
 
 

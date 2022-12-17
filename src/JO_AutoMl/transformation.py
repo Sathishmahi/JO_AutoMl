@@ -1,7 +1,7 @@
 import pandas as pd
 import sys, os
 from sklearn.preprocessing import StandardScaler
-from exception import CustomException
+from JO_AutoMl.exception import CustomException
 
 
 class transformation:

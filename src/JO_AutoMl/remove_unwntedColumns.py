@@ -1,6 +1,6 @@
 import pandas as pd
 import sys
-from exception import CustomException
+from JO_AutoMl.exception import CustomException
 
 
 
