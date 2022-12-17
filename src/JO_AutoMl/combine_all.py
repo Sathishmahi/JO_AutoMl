@@ -1,21 +1,21 @@
 import pandas as pd
 import numpy as np
-from source_code.classifierTrainer import non_hyper_parameter_classifier_model
-from source_code.handle_missing_value_in_catData import replace_nan_categorical_data
-from source_code.hyper_parameter import hyper_parameter_classifier
-from source_code.detect_outlierANDremove import detect_remove_outliers
-from source_code.handle_imbalanced_dataset import handle_imbalanced_data
+from classifierTrainer import non_hyper_parameter_classifier_model
+from handle_missing_value_in_catData import replace_nan_categorical_data
+from hyper_parameter import hyper_parameter_classifier
+from detect_outlierANDremove import detect_remove_outliers
+from handle_imbalanced_dataset import handle_imbalanced_data
 
 # from source_code.diamensionalityReduction import diamensionality_reduction
-from source_code.diamensionalityReduction import diamensionality_reduction
-from source_code.remove_unwntedColumns import remove_col
-from source_code.find_Corr_remove import find_correlation
-from source_code.transformation import transformation
-from source_code.replace_NaN import replace_nan
-from source_code.handle_categorical_features import cat_value
-from source_code.remove_unwntedColumns import remove_col
-from source_code.train_test_split import train_test_split_fn
-from source_code.exception import CustomException
+from diamensionalityReduction import diamensionality_reduction
+from remove_unwntedColumns import remove_col
+from find_Corr_remove import find_correlation
+from transformation import transformation
+from replace_NaN import replace_nan
+from handle_categorical_features import cat_value
+from remove_unwntedColumns import remove_col
+from train_test_split import train_test_split_fn
+from exception import CustomException
 from sklearn.metrics import (
     accuracy_score,
     f1_score,
@@ -193,7 +193,7 @@ class combine_all_functions:
         except:
             CustomException(sys)
 
-    def _combine_all_data_preprocessing(
+    def combine_all_data_preprocessing(
         self, path: str, label_column: str, isClassification=True
     ) -> dict:
         try:
